@@ -5,6 +5,10 @@ This project is an iOS app with a core .NET Standard project, using the pre-rele
 
 Tapping this button gives a crash. If I change the code to manually load the view controller from a storyboard and push it, it works. If I change the storyboard so CounterVies is the root it works. If I remove the root from the storyboard and navigate to the CounterView from my AppDelegate on startup it works. The crash only happens when using the navigation service to go from CountersView to CounterView.
 
+This happens using:
+* Visual Studio for Mac Stable 7.1.5 (build 2)
+* Xcode 9
+
 Crash output:
 
 ```
